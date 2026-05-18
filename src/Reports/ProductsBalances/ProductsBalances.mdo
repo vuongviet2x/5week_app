@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4542993-0aa8-4cff-8560-c292c7b1951f">
+  <producedTypes>
+    <objectType typeId="5af4c3cf-d2eb-4913-9403-a9c8f8f4eddf" valueTypeId="0f49df15-e2ea-4158-aea1-c185caf75c61"/>
+    <managerType typeId="02387498-c98f-4d2a-8e40-dc0da9f1d7fc" valueTypeId="69382adf-ecac-4a94-b89d-133cfbdd4763"/>
+  </producedTypes>
+  <name>ProductsBalances</name>
+  <synonym>
+    <key>en</key>
+    <value>Products balances</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ProductsBalances.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <templates uuid="5ad88a22-781f-4abc-b073-f4ca83f90380">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

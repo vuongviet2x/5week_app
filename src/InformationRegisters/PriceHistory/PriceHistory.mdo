@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70ecea6a-a4ef-4f1c-9df8-fb527d273878">
+  <producedTypes>
+    <selectionType typeId="aeff47df-a3c9-4288-8eb4-f04bad5f250c" valueTypeId="a4276246-23c3-4bae-b42b-6e652fe30809"/>
+    <listType typeId="a45fcc19-c2ad-49d8-a0f5-a98d607b450c" valueTypeId="e962c434-f771-4883-9cab-84638eaf5b77"/>
+    <managerType typeId="16b38f6c-b51a-4e6b-8dd3-b76804419fed" valueTypeId="c5967d7b-451c-4b7a-ad08-c96e10826668"/>
+    <recordSetType typeId="eccc021d-06b5-48a3-91bd-5391b0f41301" valueTypeId="77fc97d5-c0b8-467d-9778-63ad1e23ed6f"/>
+    <recordKeyType typeId="2b49e534-ba70-47b0-a82f-d4abed6ced37" valueTypeId="1a3a5818-3a06-40a6-95a0-b4c08ef303f1"/>
+    <recordType typeId="d54e64f7-f2f1-4fa0-a1b7-ab503f09c5a2" valueTypeId="fd1c6ef4-9666-46a3-acbf-68ccca1dfddb"/>
+    <recordManagerType typeId="f263410f-29c5-456d-a3c5-9c213bceb8d2" valueTypeId="0895cb0a-e62b-48cb-909d-74bd00b25f0c"/>
+  </producedTypes>
+  <name>PriceHistory</name>
+  <synonym>
+    <key>en</key>
+    <value>Price history</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="16c43f95-faf0-4f7d-85ae-eefab1f10d29">
+    <name>Price</name>
+    <synonym>
+      <key>en</key>
+      <value>Price</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3060e8ce-8a37-417d-85c6-78d04ff8c5a0">
+    <name>Product</name>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Products</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

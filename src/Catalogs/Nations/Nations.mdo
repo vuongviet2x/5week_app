@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21374611-b351-40be-8548-d41b575d7037">
+  <producedTypes>
+    <objectType typeId="6a352220-3839-41bc-bafd-35297d8ad6d3" valueTypeId="9182e48f-37ba-4213-acdc-2ba0f9d6e3eb"/>
+    <refType typeId="1038006c-5a6e-4d9a-a3ff-a395afe2da1f" valueTypeId="2ac16f98-22ab-44a5-a83b-64df516f874f"/>
+    <selectionType typeId="21d7fd94-2883-4d40-a5c9-ba7bd60be940" valueTypeId="697f9f29-7ccf-4ba8-8ba8-85963d751e77"/>
+    <listType typeId="d2bb6c40-5671-4b3a-9ff1-caf554f7927f" valueTypeId="713a6647-6965-4c33-930f-2e6274916204"/>
+    <managerType typeId="c7859a51-a1ef-47a4-a3e2-8084aec1f93e" valueTypeId="a08623fc-3f65-474b-b5d2-2bcd9f72e173"/>
+  </producedTypes>
+  <name>Nations</name>
+  <synonym>
+    <key>en</key>
+    <value>Nations</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Nations.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Nations.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4b227ecb-6750-454f-91b8-57517a903b56">
+      <name>ViệtNam</name>
+      <description>Việt Nam</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

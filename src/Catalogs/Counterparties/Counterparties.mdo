@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9edeb41-5d07-4368-b0c1-41d46a9d9c1d">
+  <producedTypes>
+    <objectType typeId="b59fd1b9-deda-4746-acea-14e113b274ce" valueTypeId="e77bd53a-33dd-45df-befb-cdc800834ab5"/>
+    <refType typeId="1a64f88f-c320-47a0-9f63-824862398bee" valueTypeId="30b1025a-87f1-4492-b7bd-5d7e5701c414"/>
+    <selectionType typeId="6237f39d-9832-4c26-93bf-3f5660e0202c" valueTypeId="f06a6be1-3522-4138-a242-45f2df1c8547"/>
+    <listType typeId="90c7aca5-014b-4e79-8c40-e7427f9c5082" valueTypeId="3c9cf65c-8c05-4835-b618-432b74149c66"/>
+    <managerType typeId="77d3108d-31be-47b5-bec9-2bfe96cb95bf" valueTypeId="e94f36a1-cd57-4c06-8003-3b47a6ad9c70"/>
+  </producedTypes>
+  <name>Counterparties</name>
+  <synonym>
+    <key>en</key>
+    <value>Counterparties</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Counterparties.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Counterparties.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Counterparties.Form.PhoneDetail</defaultObjectForm>
+  <defaultListForm>Catalog.Counterparties.Form.ListOfCounterparites</defaultListForm>
+  <attributes uuid="f3872ad5-6159-4a58-9bb6-17c6e6848474">
+    <name>Address</name>
+    <synonym>
+      <key>en</key>
+      <value>Address</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7337212-3cb3-4415-af19-a7cbd1f265a4">
+    <name>Phone</name>
+    <synonym>
+      <key>en</key>
+      <value>Phone</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="077b215f-378e-4a2d-85e0-b52552bb37c7">
+    <name>Email</name>
+    <synonym>
+      <key>en</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3aa23346-e273-4854-aa0a-8df80236c6ed">
+    <name>Gender</name>
+    <synonym>
+      <key>en</key>
+      <value>Gender</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Gender</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3a4f34e-3bc1-4e65-b873-86b037eaf988">
+    <name>IsSupplier</name>
+    <synonym>
+      <key>en</key>
+      <value>Is supplier</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f9f25aa-780d-4d11-bd48-f8edf3e64dc4">
+    <name>IsCustomer</name>
+    <synonym>
+      <key>en</key>
+      <value>Is customer</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5b4f1c5-c28c-49ff-a525-2e7de7d55ada">
+    <name>Country</name>
+    <synonym>
+      <key>en</key>
+      <value>Country</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Nations</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Nations.ViệtNam</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="899eb91a-47b2-41fd-b44b-7d63afc6a638">
+    <name>ListOfCounterparites</name>
+    <synonym>
+      <key>en</key>
+      <value>List of counterparites</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1cf0e733-ff74-471c-aeaa-f6e33d21afc1">
+    <name>PhoneDetail</name>
+    <synonym>
+      <key>en</key>
+      <value>Phone detail</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5d06b9f-a139-43ee-a21e-851c351eac6b">
+    <name>ListOfCustomers</name>
+    <synonym>
+      <key>en</key>
+      <value>List of customers</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ee01422-6308-40f2-b8ec-7626014ed20d">
+    <name>StaffDetail</name>
+    <synonym>
+      <key>en</key>
+      <value>Staff detail</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

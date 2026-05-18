@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db7218c5-6fc6-44f6-a210-d3effde9732e">
+  <producedTypes>
+    <objectType typeId="d5ef799e-6eec-4b9d-8636-c2a6409958ae" valueTypeId="e6aee160-8b23-42cf-ab09-d7ba2e4c3ba2"/>
+    <managerType typeId="fca8f00e-249e-4a54-98cf-ca0259131d95" valueTypeId="db23a39a-9d7a-48cd-be6d-909158611e26"/>
+  </producedTypes>
+  <name>ExpenseReceiptJournal</name>
+  <synonym>
+    <key>en</key>
+    <value>Expense / Receipt journal</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ExpenseReceiptJournal.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <templates uuid="22433b10-1211-4c9d-9697-3dd734057196">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

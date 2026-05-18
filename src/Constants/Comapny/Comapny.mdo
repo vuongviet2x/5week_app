@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b4d2a44-3beb-437d-b1a1-fc0632e38eb8">
+  <producedTypes>
+    <managerType typeId="c1737335-82ed-454e-8a12-71708aaf8153" valueTypeId="a83aec06-dce1-4d2a-b523-c41469444bc4"/>
+    <valueManagerType typeId="f411485e-c76e-4ac4-ad60-4caa50285a0e" valueTypeId="0fcdbb9a-2907-4cf4-b42d-26e069546994"/>
+    <valueKeyType typeId="0d44936c-6b0e-4ce6-b255-01c955da69bd" valueTypeId="4d1b866d-3801-4bdf-8f65-eedaa35e917c"/>
+  </producedTypes>
+  <name>Comapny</name>
+  <synonym>
+    <key>en</key>
+    <value>Comapny</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

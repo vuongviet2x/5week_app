@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af86196-e3f9-4a86-8917-8b610e1beff5">
+  <name>Purchase</name>
+  <synonym>
+    <key>en</key>
+    <value>Purchase</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Warehouses</content>
+  <content>Catalog.Staffs</content>
+  <content>Catalog.Counterparties</content>
+  <content>Catalog.Products</content>
+  <content>Document.ReceiveAndImportProducts</content>
+  <content>AccumulationRegister.Inventory</content>
+  <content>Catalog.AccountingAccount</content>
+</mdclass:Subsystem>

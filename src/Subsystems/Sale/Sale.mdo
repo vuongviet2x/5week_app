@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dd7e81f-09f4-45ac-8a64-dfda28aaf552">
+  <name>Sale</name>
+  <synonym>
+    <key>en</key>
+    <value>Sale</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Warehouses</content>
+  <content>Catalog.Staffs</content>
+  <content>Catalog.Counterparties</content>
+  <content>Catalog.Products</content>
+  <content>Document.SendAndExportProducts</content>
+  <content>AccumulationRegister.Inventory</content>
+  <content>Document.ProductsPricePlan</content>
+  <content>InformationRegister.PriceHistory</content>
+  <content>Catalog.AccountingAccount</content>
+</mdclass:Subsystem>

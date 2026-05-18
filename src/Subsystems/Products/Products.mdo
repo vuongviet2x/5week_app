@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c803e9a2-cd7d-440c-8531-3d3da28252d2">
+  <name>Products</name>
+  <synonym>
+    <key>en</key>
+    <value>Products</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Products</content>
+  <content>Catalog.Units</content>
+  <content>Catalog.Nations</content>
+  <content>Catalog.ProductTypes</content>
+  <content>Document.ReceiveAndImportProducts</content>
+  <content>Document.SendAndExportProducts</content>
+  <content>Document.InventoryTransfer</content>
+  <content>Document.ProductsPricePlan</content>
+  <content>AccumulationRegister.Inventory</content>
+  <content>Catalog.Positions</content>
+  <content>Report.ProductsBalances</content>
+  <content>CommonForm.ConstantsForm</content>
+</mdclass:Subsystem>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fbe279f-8aa9-4cf1-bb55-90967f27264d">
+  <producedTypes>
+    <objectType typeId="dbf22c03-3c4a-40c1-aa09-cb93567d66bd" valueTypeId="d10e3c37-e417-4cb9-8371-3621fdd6828c"/>
+    <refType typeId="411d864e-011d-455b-945b-761c73ab5f23" valueTypeId="d42b9a27-c925-4885-940a-3473533239d2"/>
+    <selectionType typeId="d035ba32-a7d8-46ed-ab0f-49b718b090cd" valueTypeId="d16af11e-88bd-4e60-bcb1-28b5ba723120"/>
+    <listType typeId="2a507bc2-cab9-48ce-9e6d-2fbb9a9835bc" valueTypeId="d7366041-8264-4cb0-8567-84cf34cf9b61"/>
+    <managerType typeId="af228d3a-3e7f-4440-9d32-5d7ad1bd1d2b" valueTypeId="3b3b10d6-1328-45df-8ef3-289f601b0b9b"/>
+  </producedTypes>
+  <name>Warehouses</name>
+  <synonym>
+    <key>en</key>
+    <value>Warehouses</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Warehouses.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Warehouses.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

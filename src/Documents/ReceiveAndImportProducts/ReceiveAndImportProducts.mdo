@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9be37332-0f87-405f-9282-b982a0728405">
+  <producedTypes>
+    <objectType typeId="809c1051-522c-418b-b1a1-f437a909a94b" valueTypeId="0e2959f9-a736-400a-b6e0-ce75e3f880c8"/>
+    <refType typeId="ca6bdf94-cb3b-4db2-abfa-cd4a9371f476" valueTypeId="5e958996-ad4a-4873-883f-4885364ab2e7"/>
+    <selectionType typeId="4a7918c5-0fb5-478d-b706-99d1423d3218" valueTypeId="b025ca37-4610-4f6f-b643-5c88938206cd"/>
+    <listType typeId="8c275ce4-8a3e-4d23-8ac8-c22411c3cab5" valueTypeId="c82b933e-a881-4354-bfec-52832013fc9f"/>
+    <managerType typeId="3ff72070-9a48-4c02-bef5-520390b2de05" valueTypeId="0a2f8c66-6a7a-478b-a87c-2fdf13164819"/>
+  </producedTypes>
+  <name>ReceiveAndImportProducts</name>
+  <synonym>
+    <key>en</key>
+    <value>Receive and import products</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ReceiveAndImportProducts.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>en</key>
+      <value>NgàyChứngTừ</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>en</key>
+      <value>SốChứngTừ</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ReceiveAndImportProducts.Form.DocumentDetail</defaultObjectForm>
+  <registerRecords>AccumulationRegister.CashFlow</registerRecords>
+  <registerRecords>AccumulationRegister.Inventory</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3eca0d32-a50b-48b8-8a05-8cbad34b64a8">
+    <name>Warehouse</name>
+    <synonym>
+      <key>en</key>
+      <value>Warehouse</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Warehouses</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32b8a202-b9f3-4c28-b01b-1a438a4c9b35">
+    <name>Counterparty</name>
+    <synonym>
+      <key>en</key>
+      <value>Counterparty</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Counterparties</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10565bdd-2ce7-4aa7-9bad-4d48c305b9b7">
+    <name>Staff</name>
+    <synonym>
+      <key>en</key>
+      <value>Staff</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Staffs</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8823ddbc-a532-44dd-b8b2-d86a0157ac98">
+    <name>Total</name>
+    <synonym>
+      <key>en</key>
+      <value>Total</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="308330a8-623a-4ad7-9c18-2fcb2464f535">
+    <name>PaymentMethod</name>
+    <synonym>
+      <key>en</key>
+      <value>Payment method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.PaymentMethods</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c75679e1-6d49-4175-9182-db094b409533">
+    <name>DocumentDetail</name>
+    <synonym>
+      <key>en</key>
+      <value>Document detail</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="6601d964-0ac2-4d5e-8cc4-5d2cd18f68e3">
+    <producedTypes>
+      <objectType typeId="a7183237-b359-4c4b-a8b0-c27d9c35fd79" valueTypeId="7a82c489-4563-4a3a-b6c5-c6b35e22ff87"/>
+      <rowType typeId="21d02c17-7756-494e-acac-5378a71cc98b" valueTypeId="81050afc-ffdc-46cc-9ed3-4508d1533913"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="94412d05-d096-4b17-abe5-cd1beeee0e9e">
+      <name>Product</name>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e64e9b21-b7f0-444e-bd28-be85344561d1">
+      <name>Unit</name>
+      <synonym>
+        <key>en</key>
+        <value>Unit</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Units</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0713b1e0-ca84-441a-91a3-deb5395e1234">
+      <name>Quantity</name>
+      <synonym>
+        <key>en</key>
+        <value>Quantity</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d99189a-dc3c-4045-9506-ea358e7ab463">
+      <name>Price</name>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="035100e4-bf7a-442c-82b8-286d4dd081e9">
+      <name>Amount</name>
+      <synonym>
+        <key>en</key>
+        <value>Amount</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8071c719-1068-43e2-ba7b-153a7163bf07">
+      <name>Note</name>
+      <synonym>
+        <key>en</key>
+        <value>Note</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="e7da71f3-833a-4492-9a4d-d2dda086a7c6">
+    <name>PrintImportProducts</name>
+    <synonym>
+      <key>en</key>
+      <value>Print import products</value>
+    </synonym>
+  </templates>
+  <commands uuid="6ba2e2f9-bdb2-4eee-8a03-1acc20b0bfcd">
+    <name>PrintImportProducts</name>
+    <synonym>
+      <key>en</key>
+      <value>Print import products</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ReceiveAndImportProducts</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

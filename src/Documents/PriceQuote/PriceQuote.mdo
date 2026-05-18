@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5278cb9-ae34-43bb-bbe8-abda366a5be5">
+  <producedTypes>
+    <objectType typeId="ebc45b59-5726-41d2-aa39-763ee4d440c9" valueTypeId="d0527ac8-2c66-4369-a251-8e5e1cce4688"/>
+    <refType typeId="ef7a9296-12f9-48d0-989a-89c605508342" valueTypeId="9ac346e6-549a-4344-bc18-508f8ca5f596"/>
+    <selectionType typeId="82bb54a1-b4a0-4d04-a832-c5d5b1959c9a" valueTypeId="6707f1b4-fc88-436f-8dbd-15fb94a29538"/>
+    <listType typeId="009ca64b-6a7d-4644-8248-47152826f782" valueTypeId="1889e43d-ebf6-452c-96cc-dac7f0dd9132"/>
+    <managerType typeId="b41f3ff6-6d0a-4464-b25c-e8c1650f763f" valueTypeId="6538866f-6185-4780-8ebe-04b323304b91"/>
+  </producedTypes>
+  <name>PriceQuote</name>
+  <synonym>
+    <key>en</key>
+    <value>Price quote</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.PriceQuote.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.PriceQuote.Form.DocumentForm</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="44ddbe3f-f7b5-4598-acd9-4c52d8a0fee6">
+    <name>Customer</name>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Counterparties</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5ed42f0-6146-41c3-aed3-3e379e06df62">
+    <name>Staff</name>
+    <synonym>
+      <key>en</key>
+      <value>Staff</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Staffs</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8e28593e-3a6f-4327-a6fc-6009a4b2af8e">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="472ed7cb-bf9f-4a07-9e95-fd9472ddb7f2">
+    <producedTypes>
+      <objectType typeId="3bcbb733-7622-42c8-a06f-9508beaf06b6" valueTypeId="a042f77d-5e7e-4aa7-b7f5-fdb06e708e2c"/>
+      <rowType typeId="739def1f-3d94-4082-8cdd-d28714d97b0e" valueTypeId="4ccc6816-e98a-4d0f-822e-86475a76c7f3"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="698aac16-94fe-47d7-ada3-f5f4049273ec">
+      <name>Product</name>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="efdfa2b4-fe9a-4814-af08-34e975dd0904">
+      <name>Unit</name>
+      <synonym>
+        <key>en</key>
+        <value>Unit</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Units</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d7f4d1e-8241-4a1e-8442-9c7c486cbf18">
+      <name>Price</name>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

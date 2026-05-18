@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5390b2e7-07b3-446c-b4a9-019078a7a9d6">
+  <name>CashCapital</name>
+  <synonym>
+    <key>en</key>
+    <value>Cash capital</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.CashFlow</content>
+  <content>Report.ExpenseReceiptJournal</content>
+  <content>Report.RevenueByProduct</content>
+  <content>Report.RevenueByStaff</content>
+  <content>Document.DebitAdvice</content>
+  <content>Document.CreditAdvice</content>
+</mdclass:Subsystem>

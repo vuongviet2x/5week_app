@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="742e8d5d-c31a-4b72-9ebb-256dfc8f3333">
+  <producedTypes>
+    <refType typeId="fd59c2ca-885e-46d7-b295-708247c21582" valueTypeId="ad01f5ee-05fd-43e3-b6c4-b538f5e131c4"/>
+    <listType typeId="c18097cc-872c-43f8-8a04-2b5371ca953d" valueTypeId="c6e2e46c-97b6-46d1-89be-e08818dacc75"/>
+    <managerType typeId="b43eee37-28a4-47ce-a176-91954d7acc02" valueTypeId="4d566fde-dd4d-49e9-b21e-abc2048b7938"/>
+  </producedTypes>
+  <name>PaymentMethods</name>
+  <synonym>
+    <key>en</key>
+    <value>Payment methods</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a1929d8-b4f1-4b08-a4fa-bdcef1efaf45">
+    <name>Cash</name>
+    <synonym>
+      <key>en</key>
+      <value>Cash</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9dea313b-e6e7-4c1e-ace0-726502999885">
+    <name>BankTransfer</name>
+    <synonym>
+      <key>en</key>
+      <value>Bank transfer</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86aa892e-4593-427b-ad57-8f3f49826198">
+  <producedTypes>
+    <objectType typeId="37fd449b-5428-45fc-80b4-6e4a7350ddf5" valueTypeId="b846fe20-56c9-4002-b9d0-06a8c48a643e"/>
+    <managerType typeId="146cf6e5-404c-4dc8-9ec1-bb80caededd7" valueTypeId="7ffe4608-a903-4d92-bfc6-f5a28e094d8b"/>
+  </producedTypes>
+  <name>RevenueByProduct</name>
+  <synonym>
+    <key>en</key>
+    <value>Revenue by product</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.RevenueByProduct.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <templates uuid="ca27ead6-0c21-42bf-9763-35bef78a3cb6">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

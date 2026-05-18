@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d558c8-7959-482b-aa01-4dba635c9382">
+  <producedTypes>
+    <selectionType typeId="0b992300-0c8a-43ae-b775-020f31932824" valueTypeId="bed75062-156f-4faa-aec9-d1ccb307a2a0"/>
+    <listType typeId="1c4612ca-13a4-462b-aa10-78550f69a801" valueTypeId="437ae155-43f1-4d6b-8fd7-f43657c3ab6a"/>
+    <managerType typeId="3433ec71-36db-4242-b88d-1ec5f68bc3a0" valueTypeId="31842703-68e7-4382-8a74-a8213baf44da"/>
+    <recordSetType typeId="14197a01-34f7-4e1b-a5ff-08d7609f47be" valueTypeId="b6edf409-de48-4da2-83be-644d06247782"/>
+    <recordKeyType typeId="d748b748-c15a-4118-bc50-a8588bcdac71" valueTypeId="1b605b65-2b10-49ba-9315-b31c8969ff89"/>
+    <recordType typeId="2bef657b-3fd4-4e88-903b-581521d2eb08" valueTypeId="94927af1-511d-4e4a-b5cb-9bda218456ef"/>
+  </producedTypes>
+  <name>CashFlow</name>
+  <synonym>
+    <key>en</key>
+    <value>Cash flow</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f9579a1f-d6ad-4cd4-876b-5acb590ac79c">
+    <name>Amount</name>
+    <synonym>
+      <key>en</key>
+      <value>Amount</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d3ce8973-77e5-4995-8eba-e9ffc34f16dc">
+    <name>Product</name>
+    <synonym>
+      <key>en</key>
+      <value>Product</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Products</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4f679898-b047-465b-b9bf-3c90526da856">
+    <name>Staff</name>
+    <synonym>
+      <key>en</key>
+      <value>Staff</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Staffs</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

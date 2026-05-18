@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e4984f3-0008-478a-8d6e-c350caaf08eb">
+  <producedTypes>
+    <objectType typeId="14bdfce9-8aab-4976-9832-d4bef03209c4" valueTypeId="dd4c22e6-ab36-4624-84ba-d8b1f0d6d58d"/>
+    <refType typeId="fb4228ae-a0f4-4b81-a541-cc4834d30fc5" valueTypeId="fda483fb-9d25-4e03-8e5e-1adaed41cb55"/>
+    <selectionType typeId="3480989a-c660-4793-b296-4153c2a8b228" valueTypeId="84936c79-af50-4551-8c5f-06f785928fa9"/>
+    <listType typeId="dae1f769-532f-4ed0-ad3a-ceacf64beacf" valueTypeId="6ff76006-fc26-44b2-bfdf-3087e9759c67"/>
+    <managerType typeId="cd460de4-8f51-4b5f-9ae6-c823de9042d1" valueTypeId="e1e59a97-8852-4a0c-9b5c-85a5df77f04a"/>
+  </producedTypes>
+  <name>ProductsPricePlan</name>
+  <synonym>
+    <key>en</key>
+    <value>Products price plan</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ProductsPricePlan.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.PriceHistory</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8d0aecd8-957c-44ff-a32b-24ce87457ea0">
+    <name>ValidDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Valid date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fae7bebd-e78f-4778-9450-23e73e02d83e">
+    <name>PriceHistory</name>
+    <synonym>
+      <key>en</key>
+      <value>Price history</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3c38f027-a4b0-4b27-a5ea-4c6da98efb11">
+    <producedTypes>
+      <objectType typeId="f67e326e-66fe-4e5f-8f2a-ef3a3e7f643d" valueTypeId="052251b6-fad4-453d-83d2-f386129bc59b"/>
+      <rowType typeId="e2623326-9130-42be-abcb-604c3aae4b19" valueTypeId="2df9168e-42ae-4aed-96a2-22f599532156"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="6b3650d7-258d-4912-908c-11de8b0a192b">
+      <name>Product</name>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="54834bc2-32f1-4334-8166-4ad20884d0fd">
+      <name>Price</name>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

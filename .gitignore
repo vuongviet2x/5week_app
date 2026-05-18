@@ -1,0 +1,4 @@
+# Eclipse / EDT build artifacts
+/bin/
+.DS_Store
+Thumbs.db

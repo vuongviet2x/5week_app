@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="097a612e-c834-4cc9-9bdb-b99f80e6356c">
+  <name>Configuration</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9b24fcb6-4fec-4419-9355-f2eecc4be68f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6b378f08-77ed-4ef1-8aff-8a232ffe950d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="387160b2-f329-43e8-b834-c5d6b79e0580"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="20faca19-9f43-4cad-a0f6-3ea146e2c5d9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bdc4d6d2-b842-4da2-885e-0176d96b5493"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6083ef80-99c6-40a0-af40-f540fa80d57a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="17e8183b-2015-4d4c-9274-3baff8ccc9f3"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="b4fedf97-23b7-4732-8389-65c43d34cfac">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.Purchase</subsystems>
+  <subsystems>Subsystem.Sale</subsystems>
+  <subsystems>Subsystem.Products</subsystems>
+  <subsystems>Subsystem.InventoryTransfer</subsystems>
+  <subsystems>Subsystem.PricePlan</subsystems>
+  <subsystems>Subsystem.CashCapital</subsystems>
+  <commonModules>CommonModule.DocumentProcessing</commonModules>
+  <constants>Constant.Comapny</constants>
+  <commonForms>CommonForm.ConstantsForm</commonForms>
+  <catalogs>Catalog.Warehouses</catalogs>
+  <catalogs>Catalog.Departments</catalogs>
+  <catalogs>Catalog.Staffs</catalogs>
+  <catalogs>Catalog.Counterparties</catalogs>
+  <catalogs>Catalog.Products</catalogs>
+  <catalogs>Catalog.Units</catalogs>
+  <catalogs>Catalog.Nations</catalogs>
+  <catalogs>Catalog.ProductTypes</catalogs>
+  <catalogs>Catalog.Positions</catalogs>
+  <catalogs>Catalog.AccountingAccount</catalogs>
+  <documents>Document.ReceiveAndImportProducts</documents>
+  <documents>Document.SendAndExportProducts</documents>
+  <documents>Document.InventoryTransfer</documents>
+  <documents>Document.ProductsPricePlan</documents>
+  <documents>Document.PriceQuote</documents>
+  <documents>Document.DebitAdvice</documents>
+  <documents>Document.CreditAdvice</documents>
+  <enums>Enum.Gender</enums>
+  <enums>Enum.AccountType</enums>
+  <enums>Enum.PaymentMethods</enums>
+  <reports>Report.ExpenseReceiptJournal</reports>
+  <reports>Report.ProductsBalances</reports>
+  <reports>Report.RevenueByProduct</reports>
+  <reports>Report.RevenueByStaff</reports>
+  <reports>Report.ProductsBalance</reports>
+  <informationRegisters>InformationRegister.PriceHistory</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Inventory</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.CashFlow</accumulationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de798d6b-efff-4029-9dba-cff080030056">
+  <name>InventoryTransfer</name>
+  <synonym>
+    <key>en</key>
+    <value>Inventory transfer</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.Inventory</content>
+  <content>Document.InventoryTransfer</content>
+  <content>Catalog.Products</content>
+  <content>Catalog.Warehouses</content>
+  <content>Catalog.Departments</content>
+  <content>Catalog.Staffs</content>
+</mdclass:Subsystem>
